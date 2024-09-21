@@ -23,4 +23,4 @@ services:
     volumes:
       - ./certbot/conf:/etc/letsencrypt
       - ./certbot/www:/var/www/certbot
-    command: certonly --webroot -w /var/www/certbot --force-renewal --email 0xqahta0@gmail.com -d keycloak.anqorithm.site --agree-tos
+    command: certonly --webroot -w /var/www/certbot --force-renewal --email 0xqahta0@gmail.com -d keycloak.anqorithm.com --agree-tos
